@@ -28,5 +28,5 @@ print(df.head(), df.shape)
 X = df['text']
 Y = df['category']
 
-a=token_and_sequence(X,'pre',return_df=False)
+a=token_and_sequence(X,'pre',return_df=True)
 print(a)
